@@ -18,6 +18,9 @@ Project developed in Alura's Java immersion, carried out between 03/27/2023 and 
                         <td align="center">
                             <img src="https://github.com/emannuelop/Alura-java-immersion/blob/main/image/class01/2.png" width="200">
                         </td>
+                        <td align="center">
+                            <img src="https://github.com/emannuelop/Alura-java-immersion/blob/main/image/class01/3.png" width="200">
+                        </td>
                     </tr>
                     <tr>
                         <td>
@@ -25,6 +28,9 @@ Project developed in Alura's Java immersion, carried out between 03/27/2023 and 
                         </td>
                         <td>
                             Top TVs
+                        </td>
+                        <td>
+                            Most Popular Movies
                         </td>
                     </tr>
                 </table>
