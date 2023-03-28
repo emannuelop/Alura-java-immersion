@@ -37,19 +37,19 @@ Project developed in Alura's Java immersion, carried out between 03/27/2023 and 
                 <table>
                     <tr>
                         <td align="center">
-                            <img src="" height="200">
+                            <img src="https://github.com/emannuelop/Alura-java-immersion/blob/main/image/class02/Elvis.png" height="200">
                         </td>
                         <td align="center">
-                            <img src="" height="200">
+                            <img src="https://github.com/emannuelop/Alura-java-immersion/blob/main/image/class02/The%20Godfather.png" height="200">
                         </td>
                         <td align="center">
-                            <img src="" height="200">
+                            <img src="https://github.com/emannuelop/Alura-java-immersion/blob/main/image/class02/The%20Shawshank%20Redemption.png" height="200">
                         </td>
                         <td align="center">
-                            <img src="" height="200">
+                            <img src="https://github.com/emannuelop/Alura-java-immersion/blob/main/image/class02/Thor-%20Love%20and%20Thunder.png" height="200">
                         </td>
                         <td align="center">
-                            <img src="" height="200">
+                            <img src="https://github.com/emannuelop/Alura-java-immersion/blob/main/image/class02/Top%20Gun-%20Maverick.png" height="200">
                         </td>
                     </tr>
                 </table>
