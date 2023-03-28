@@ -13,7 +13,7 @@ Project developed in Alura's Java immersion, carried out between 03/27/2023 and 
                 <table>
                     <tr>
                         <td align="center">
-                            <img src="https://github.com/simastech-com/alura-stickers/blob/main/img/Aula%2001/TopMovies.png" width="200">
+                            <img src="" width="200">
                         </td>
                         </td>
                     </tr>
