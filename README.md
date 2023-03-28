@@ -15,7 +15,6 @@ Project developed in Alura's Java immersion, carried out between 03/27/2023 and 
                         <td align="center">
                             <img src="https://github.com/emannuelop/Alura-java-immersion/blob/main/image/class01/1.png" width="200">
                         </td>
-                        </td>
                     </tr>
                     <tr>
                         <td>
