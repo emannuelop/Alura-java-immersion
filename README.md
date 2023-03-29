@@ -41,7 +41,7 @@ Project developed in Alura's Java immersion, carried out between 03/27/2023 and 
         <h3>Class 02 | 03/28/2023 | Generating stickers for WhatsApp.</h3>
         <ul>
             <li>
-                <b>Objective:</b> Generate stickers for WhatsApp from images provided by the IMDB API. Once again, due to the instability of IMDB, the alternative links offered by the instructors were used. It was noticed that the stickers of some movies were not generated due to the presence of a colon (:) in the file name. To solve this problem, the colon (:) was replaced by a dash (-).
+                <b>Goal:</b> Generate stickers for WhatsApp from images provided by the IMDB API. Once again, due to the instability of IMDB, the alternative links offered by the instructors were used. It was noticed that the stickers of some movies were not generated due to the presence of a colon (:) in the file name. To solve this problem, the colon (:) was replaced by a dash (-).
             </li>
             <li>
                 <b>Results:</b>
