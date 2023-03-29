@@ -71,7 +71,7 @@ Project developed in Alura's Java immersion, carried out between 03/27/2023 and 
         <h3>Class 03 | 03/29/2023 | Connecting the Dots: Refactoring and Object Orientation.</h3>
         <ul>
             <li>
-                <b>Goal:</b> Goal: We used a NASA API and took advantage of it to improve our code with the necessary refactorings to make it more flexible and easier to understand.
+                <b>Goal:</b> We used a NASA API and took advantage of it to improve our code with the necessary refactorings to make it more flexible and easier to understand.
             </li>
                 <b>Results:</b>
                 <table>
