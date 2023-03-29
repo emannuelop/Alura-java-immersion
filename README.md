@@ -9,6 +9,7 @@ Project developed in Alura's Java immersion, carried out between 03/27/2023 and 
             <li>
                 <b>Goal:</b> Get the title, poster and rating of the top 250 movies on IMDB. Since the IMDB API was showing instabilities, it was not possible to use the official API. Instead, alternative links offered by the immersion instructors were used.
             </li>
+            <li>
                 <b>Results:</b>
                 <table>
                     <tr>
@@ -73,6 +74,7 @@ Project developed in Alura's Java immersion, carried out between 03/27/2023 and 
             <li>
                 <b>Goal:</b> We used a NASA API to get images and also generate stickers and we took the opportunity to improve our code with the necessary refactorings to make it more flexible and easier to understand.
             </li>
+            <li>
                 <b>Results:</b>
                 <table>
                     <tr>
