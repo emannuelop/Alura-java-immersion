@@ -1,101 +1,35 @@
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.InputStream;
-import java.net.URI;
 import java.net.URL;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
-import java.net.http.HttpResponse.BodyHandlers;
 import java.util.List;
-import java.util.Map;
 
 public class App {
+
     public static void main(String[] args) throws Exception {
 
-        // Fazer uma conexão HTTP e buscar os top 250 filmes da API do IMBD
+        API api = API.IMDB_TOP_SERIES;
 
-        // String imdbKey = System.getenv("IMDB_API_KEY");
+        String url = api.getUrl();
+        ExtratorDeConteudo extrator = api.getExtrator();
 
-        // String url =
-        // "https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/TopMovies.json";
-
-        // String url =
-        // "https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/TopTVs.json";
-
-        String url = "https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/MostPopularMovies.json";
-
-        // String url =
-        // "https://raw.githubusercontent.com/alura-cursos/imersao-java-2-api/main/MostPopularTVs.json";
-
-        URI endereco = URI.create(url);
-        /* HttpClient -> */ var client = HttpClient.newHttpClient();
-        var request = HttpRequest.newBuilder(endereco).GET().build();
-        HttpResponse<String> response = client.send(request, BodyHandlers.ofString());
-        String body = response.body();
-
-        // Extrair só os dados que interessam (titulo, poster, classificação)
-        var parser = new JsonParser();
-        List<Map<String, String>> listaDeFilmes = parser.parse(body);
+        var http = new ClienteHttp();
+        String json = http.buscaDados(url);
 
         // Exibir e manipular os dados
-        // var geradora = new GeradoraDeFigurinhas();
-        // for (Map<String, String> filme : listaDeFilmes) {
+        List<Conteudo> conteudos = extrator.extraiConteudos(json);
 
-        // String urlImagem = filme.get("image");
-        // String titulo = filme.get("title");
+        var geradora = new GeradoraDeFigurinhas();
 
-        // InputStream inputStream = new URL(urlImagem).openStream();
-        // String nomeArquivo = titulo + ".png";
+        for (int i = 0; i < 3; i++) {
 
-        // geradora.cria(inputStream, nomeArquivo);
+            Conteudo conteudo = conteudos.get(i);
 
-        // System.out.println(titulo);
-        // System.out.println();
-        // }
+            InputStream inputStream = new URL(conteudo.urlImagem()).openStream();
+            String nomeArquivo = "saida/" + conteudo.titulo() + ".png";
 
-        var diretorio = new File("figurinhas/");
-        diretorio.mkdir();
+            geradora.cria(inputStream, nomeArquivo);
 
-        // Outra forma de fazer
-        for (int i = 0; i < listaDeFilmes.size(); i++) {
-
-            Map<String, String> filme = listaDeFilmes.get(i);
-
-            String urlImagem = filme.get("image");
-            InputStream inputStream = new URL(urlImagem).openStream();
-
-            String titulo = filme.get("title");
-            String nomeArquivo = "figurinhas/" + titulo.replace(":", "-") + ".png";
-
-            System.out.println("\u001b[1m\u001b[44;1mTítulo:\u001b[m " + filme.get("title"));
-            System.out.print(filme.get("imDbRating"));
-            System.out.print(" ");
-
-            double classificacao = Double.parseDouble(filme.get("imDbRating"));
-            int numeroEstrelinhas = (int) classificacao;
-            String textoFigurinha;
-            InputStream imagemAvaliacao;
-            if (numeroEstrelinhas >= 8) {
-                textoFigurinha = "TOPZERA";
-                imagemAvaliacao = new FileInputStream(new File("sobreposicao/bom.png"));
-                for (int n = 1; n <= numeroEstrelinhas; n++) {
-                    System.out.print("⭐");
-                }
-            } else {
-                textoFigurinha = "HUMMMM...";
-                imagemAvaliacao = new FileInputStream(new File("sobreposicao/ruim.png"));
-                for (int n = 1; n <= numeroEstrelinhas; n++) {
-                    System.out.print("🍅");
-                }
-            }
-
-            var geradora = new GeradoraDeFigurinhas();
-            geradora.cria(inputStream, nomeArquivo, textoFigurinha, imagemAvaliacao);
-
-            System.out.println("\n");
-
+            System.out.println(conteudo.titulo());
+            System.out.println();
         }
-
     }
 }
