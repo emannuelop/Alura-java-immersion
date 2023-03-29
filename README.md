@@ -75,5 +75,36 @@ Project developed in Alura's Java immersion, carried out between 03/27/2023 and 
     </li>
     <li>
         <h3>Class 05 | 03/31/2023 | Publishing our API to the Cloud.</h3>
+        <ul>
+            <li>
+                <b>Goal:</b> Get the title, poster and rating of the top 250 movies on IMDB. Since the IMDB API was showing instabilities, it was not possible to use the official API. Instead, alternative links offered by the immersion instructors were used.
+            </li>
+                <b>Results:</b>
+                <table>
+                    <tr>
+                        <td align="center">
+                            <img src="https://github.com/emannuelop/Alura-java-immersion/blob/main/image/class01/1.png" width="200">
+                        </td>
+                        <td align="center">
+                            <img src="https://github.com/emannuelop/Alura-java-immersion/blob/main/image/class01/2.png" width="200">
+                        </td>
+                        <td align="center">
+                            <img src="https://github.com/emannuelop/Alura-java-immersion/blob/main/image/class01/3.png" width="200">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Top Movies
+                        </td>
+                        <td>
+                            Top TVs
+                        </td>
+                        <td>
+                            Most Popular Movies
+                        </td>
+                    </tr>
+                </table>
+            </li>
+        </ul>
     </li>
 </ul>
