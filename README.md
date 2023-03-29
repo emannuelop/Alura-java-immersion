@@ -83,13 +83,13 @@ Project developed in Alura's Java immersion, carried out between 03/27/2023 and 
                 <table>
                     <tr>
                         <td align="center">
-                            <img src="https://github.com/emannuelop/Alura-java-immersion/blob/main/image/class01/1.png" width="200">
+                            <img src="https://github.com/emannuelop/Alura-java-immersion/blob/main/image/class03/Screenshot%202023-03-29%20142630.png" width="200">
                         </td>
                         <td align="center">
-                            <img src="https://github.com/emannuelop/Alura-java-immersion/blob/main/image/class01/2.png" width="200">
+                            <img src="https://github.com/emannuelop/Alura-java-immersion/blob/main/image/class03/Satellites%20Behind%20Pinnacles.png" width="200">
                         </td>
                         <td align="center">
-                            <img src="https://github.com/emannuelop/Alura-java-immersion/blob/main/image/class01/3.png" width="200">
+                            <img src="https://github.com/emannuelop/Alura-java-immersion/blob/main/image/class03/Find%20the%20Man%20in%20the%20Moon.png" width="200">
                         </td>
                     </tr>
                     <tr>
