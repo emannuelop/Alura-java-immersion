@@ -69,15 +69,9 @@ Project developed in Alura's Java immersion, carried out between 03/27/2023 and 
     </li>
     <li>
         <h3>Class 03 | 03/29/2023 | Connecting the Dots: Refactoring and Object Orientation.</h3>
-    </li>
-    <li>
-        <h3>Class 04 | 03/30/2023 | Creating our own API with Spring.</h3>
-    </li>
-    <li>
-        <h3>Class 05 | 03/31/2023 | Publishing our API to the Cloud.</h3>
         <ul>
             <li>
-                <b>Goal:</b> Get the title, poster and rating of the top 250 movies on IMDB. Since the IMDB API was showing instabilities, it was not possible to use the official API. Instead, alternative links offered by the immersion instructors were used.
+                <b>Goal:</b> Goal: We used a NASA API and took advantage of it to improve our code with the necessary refactorings to make it more flexible and easier to understand.
             </li>
                 <b>Results:</b>
                 <table>
@@ -94,17 +88,23 @@ Project developed in Alura's Java immersion, carried out between 03/27/2023 and 
                     </tr>
                     <tr>
                         <td>
-                            Top Movies
+                            New changes
                         </td>
                         <td>
-                            Top TVs
+                            NASA photos
                         </td>
                         <td>
-                            Most Popular Movies
+                            NASA photos
                         </td>
                     </tr>
                 </table>
             </li>
         </ul>
+    </li>
+    <li>
+        <h3>Class 04 | 03/30/2023 | Creating our own API with Spring.</h3>
+    </li>
+    <li>
+        <h3>Class 05 | 03/31/2023 | Publishing our API to the Cloud.</h3>
     </li>
 </ul>
