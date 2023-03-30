@@ -105,6 +105,38 @@ Project developed in Alura's Java immersion, carried out between 03/27/2023 and 
     </li>
     <li>
         <h3>Class 04 | 03/30/2023 | Creating our own API with Spring.</h3>
+        <ul>
+            <li>
+                <b>Goal:</b> We built a REST API to expose our own content, using professional tools like the Spring Framework and a NoSQL database.
+            </li>
+            <li>
+                <b>Results:</b>
+                <table>
+                    <tr>
+                        <td align="center">
+                            <img src="https://github.com/emannuelop/Alura-java-immersion/blob/main/image/class03/Screenshot%202023-03-29%20142630.png" width="200">
+                        </td>
+                        <td align="center">
+                            <img src="https://github.com/emannuelop/Alura-java-immersion/blob/main/image/class03/Satellites%20Behind%20Pinnacles.png" width="200">
+                        </td>
+                        <td align="center">
+                            <img src="https://github.com/emannuelop/Alura-java-immersion/blob/main/image/class03/Find%20the%20Man%20in%20the%20Moon.png" width="200">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            New changes
+                        </td>
+                        <td>
+                            NASA photos
+                        </td>
+                        <td>
+                            NASA photos
+                        </td>
+                    </tr>
+                </table>
+            </li>
+        </ul>
     </li>
     <li>
         <h3>Class 05 | 03/31/2023 | Publishing our API to the Cloud.</h3>
