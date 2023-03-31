@@ -128,5 +128,10 @@ Project developed in Alura's Java immersion, carried out between 03/27/2023 and 
     </li>
     <li>
         <h3>Class 05 | 03/31/2023 | Publishing our API to the Cloud.</h3>
+        <ul>
+            <li>
+                <b>Goal:</b> The class was to make an application accessible to anyone, deploying it in the cloud. In addition, generate stickers from the content of our API. But unfortunately I couldn't do it.
+            </li>
+        </ul>
     </li>
 </ul>
